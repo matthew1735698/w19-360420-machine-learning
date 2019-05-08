@@ -12,7 +12,6 @@ public class kNNMain{
     // the desired file. Choose a given DataPoint, and print its features and label
 
 
-
     //TASK 2:Use the DataSet class to split the fullDataSet into Training and Held Out Test Dataset
 
 
