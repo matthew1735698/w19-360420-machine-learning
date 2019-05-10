@@ -246,5 +246,20 @@ public class DataSet {
     }
   }
   ////////////////////////////////////////////////////////////////////////////
-
+  // Euclidean Distance Method
+	public static double getDistance(DataPoint dp1, DataPoint dp2) {
+	double [] dpArray1 = dp1.getX();
+	double [] dpArray2 = dp2.getX();
+	double tempdist=0;
+	for (int i = 0; i < dpArray1.length; i++){
+	
+	tempdist += Math.pow((dpArray1[i]-dpArray2[i]), 2);
+	
+	}
+	double distance = Math.pow(tempdist, 0.5);
+	
+	return distance;
+	
+	}
+	
 }
