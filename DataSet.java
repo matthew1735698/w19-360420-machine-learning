@@ -247,7 +247,7 @@ public class DataSet {
   }
   ////////////////////////////////////////////////////////////////////////////
   // Euclidean Distance Method
-	public static double getDistance(DataPoint dp1, DataPoint dp2) {
+	public static double distanceEuclid(DataPoint dp1, DataPoint dp2) {
 	double [] dpArray1 = dp1.getX();
 	double [] dpArray2 = dp2.getX();
 	double tempdist=0;

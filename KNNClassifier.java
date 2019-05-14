@@ -71,7 +71,7 @@ public class KNNClassifier{
 
             nearestDistances[j]=d;
             nearestNeighbors[j]=p;
-            break checkNearestNeighbors; // stop checking other elements if inserted this p already
+             break checkNearestNeighbors; // stop checking other elements if inserted this p already
           }
         }
       }
